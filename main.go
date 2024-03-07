@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/recode-sh/agent/constants"
-	"github.com/recode-sh/agent/internal/grpcserver"
-	"github.com/recode-sh/agent/internal/sshserver"
-	"github.com/recode-sh/agent/internal/system"
+	"github.com/VidwaDeSeram/IncentiCode-agent/constants"
+	"github.com/VidwaDeSeram/IncentiCode-agent/internal/grpcserver"
+	"github.com/VidwaDeSeram/IncentiCode-agent/internal/sshserver"
+	"github.com/VidwaDeSeram/IncentiCode-agent/internal/system"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/recode-sh/agent/constants"
-	"github.com/recode-sh/agent/internal/system"
+	"github.com/VidwaDeSeram/IncentiCode-agent/constants"
+	"github.com/VidwaDeSeram/IncentiCode-agent/internal/system"
 	"github.com/recode-sh/recode/entities"
 	"github.com/recode-sh/recode/github"
 )

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/recode-sh/agent/proto"
+	"github.com/VidwaDeSeram/IncentiCode-agent/proto"
 	"google.golang.org/grpc"
 )
 

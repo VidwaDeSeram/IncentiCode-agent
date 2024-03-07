@@ -1,4 +1,4 @@
-module github.com/recode-sh/agent
+module github.com/VidwaDeSeram/IncentiCode-agent
 
 go 1.17
 

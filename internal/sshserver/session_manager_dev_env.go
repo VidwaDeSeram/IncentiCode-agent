@@ -9,12 +9,12 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/VidwaDeSeram/IncentiCode-agent/constants"
+	"github.com/VidwaDeSeram/IncentiCode-agent/internal/devenv"
+	"github.com/VidwaDeSeram/IncentiCode-agent/internal/docker"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/stdcopy"
 	"github.com/gliderlabs/ssh"
-	"github.com/recode-sh/agent/constants"
-	"github.com/recode-sh/agent/internal/devenv"
-	"github.com/recode-sh/agent/internal/docker"
 )
 
 func (s SessionManager) ManageShellInDevEnv(sshSession ssh.Session) error {
