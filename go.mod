@@ -2,7 +2,7 @@ module github.com/VidwaDeSeram/IncentiCode-agent
 
 go 1.17
 
-replace github.com/VidwaDeSeram/IncentiCode_recode v0.0.0 => ../recode
+// replace github.com/VidwaDeSeram/IncentiCode_recode v0.0.0 => ../recode
 
 require (
 	github.com/gliderlabs/ssh v0.3.3
@@ -13,7 +13,7 @@ require (
 	github.com/creack/pty v1.1.17
 	github.com/docker/docker v20.10.13+incompatible
 	github.com/moby/buildkit v0.10.1
-	github.com/VidwaDeSeram/IncentiCode_recode v0.0.0
+	github.com/VidwaDeSeram/IncentiCode_recode v1.0.0
 	google.golang.org/grpc v1.45.0
 	google.golang.org/protobuf v1.27.1
 )
