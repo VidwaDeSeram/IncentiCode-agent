@@ -7,10 +7,10 @@ import (
 
 	"github.com/VidwaDeSeram/IncentiCode-agent/constants"
 	"github.com/VidwaDeSeram/IncentiCode-agent/proto"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/recode-sh/recode/entities"
 )
 
 type WorkspaceConfigRepositoryHook struct {

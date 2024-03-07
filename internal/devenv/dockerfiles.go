@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/VidwaDeSeram/IncentiCode-agent/internal/docker"
-	"github.com/recode-sh/recode/entities"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
 )
 
 func ensureUserConfigDockerfileDerivesFromBaseDevEnv(

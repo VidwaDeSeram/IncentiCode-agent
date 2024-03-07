@@ -6,8 +6,8 @@ import (
 
 	"github.com/VidwaDeSeram/IncentiCode-agent/constants"
 	"github.com/VidwaDeSeram/IncentiCode-agent/internal/system"
-	"github.com/recode-sh/recode/entities"
-	"github.com/recode-sh/recode/github"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
+	"github.com/VidwaDeSeram/IncentiCode_recode/github"
 )
 
 type PreparedWorkspaceMetadata struct {

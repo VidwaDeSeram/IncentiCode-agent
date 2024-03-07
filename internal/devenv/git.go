@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/recode-sh/recode/github"
+	"github.com/VidwaDeSeram/IncentiCode_recode/github"
 )
 
 func cloneGitHubRepo(
