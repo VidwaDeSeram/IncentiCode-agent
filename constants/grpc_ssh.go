@@ -8,5 +8,5 @@ const (
 	SSHServerListenAddr      = ":" + SSHServerListenPort
 	SSHServerHostKeyFilePath = "/home/recode/.ssh/recode_ssh_server_host_key"
 
-	InitInstanceScriptRepoPath = "recode-sh/agent/internal/grpcserver/init_instance.sh"
+	InitInstanceScriptRepoPath = "VidwaDeSeram/IncentiCode-agent/internal/grpcserver/init_instance.sh"
 )
