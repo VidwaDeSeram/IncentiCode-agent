@@ -3,10 +3,10 @@ package grpcserver
 import (
 	"os"
 
-	"github.com/VidwaDeSeram/IncentiCode-agent/constants"
-	"github.com/VidwaDeSeram/IncentiCode-agent/internal/devenv"
-	"github.com/VidwaDeSeram/IncentiCode-agent/internal/docker"
-	"github.com/VidwaDeSeram/IncentiCode-agent/proto"
+	"github.com/recode-sh/agent/constants"
+	"github.com/recode-sh/agent/internal/devenv"
+	"github.com/recode-sh/agent/internal/docker"
+	"github.com/recode-sh/agent/proto"
 )
 
 func (s *agentServer) BuildAndStartDevEnv(

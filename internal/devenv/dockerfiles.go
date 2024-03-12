@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/VidwaDeSeram/IncentiCode-agent/internal/docker"
-	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
+	"github.com/recode-sh/agent/internal/docker"
+	"github.com/recode-sh/recode/entities"
 )
 
 func ensureUserConfigDockerfileDerivesFromBaseDevEnv(

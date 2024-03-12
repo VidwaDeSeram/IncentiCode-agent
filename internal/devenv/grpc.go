@@ -1,6 +1,6 @@
 package devenv
 
-import "github.com/VidwaDeSeram/IncentiCode-agent/proto"
+import "github.com/recode-sh/agent/proto"
 
 type GRPCBuildAndStartDevEnvStreamWriter struct {
 	Stream proto.Agent_BuildAndStartDevEnvServer

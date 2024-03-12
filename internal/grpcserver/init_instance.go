@@ -10,9 +10,9 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/VidwaDeSeram/IncentiCode-agent/constants"
-	"github.com/VidwaDeSeram/IncentiCode-agent/internal/devenv"
-	"github.com/VidwaDeSeram/IncentiCode-agent/proto"
+	"github.com/recode-sh/agent/constants"
+	"github.com/recode-sh/agent/internal/devenv"
+	"github.com/recode-sh/agent/proto"
 )
 
 //go:embed init_instance.sh

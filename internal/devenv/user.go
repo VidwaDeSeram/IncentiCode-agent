@@ -3,7 +3,7 @@ package devenv
 import (
 	"os/user"
 
-	"github.com/VidwaDeSeram/IncentiCode-agent/constants"
+	"github.com/recode-sh/agent/constants"
 )
 
 func lookupRecodeUserAndDockerGroup() (*user.User, *user.Group, error) {
